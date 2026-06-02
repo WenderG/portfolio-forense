@@ -1,0 +1,41 @@
+# ======================
+# Arquivos Grandes e Binários
+# ======================
+*.E01
+*.E02
+*.E03
+*.E04
+*.dd
+*.aff4
+*.iso
+*.vmdk
+*.vmem
+*.raw
+
+# ======================
+# Autopsy e Ferramentas Forenses
+# ======================
+**/Caso_*/
+**/ModuleOutput/
+**/Cache/
+**/Export/
+**/Log/
+**/Temp/
+autopsy.db
+*.log
+*.aut
+
+# ======================
+# Outros arquivos desnecessários
+# ======================
+Thumbs.db
+*.tmp
+*.bak
+.DS_Store
+*.swp
+
+# ======================
+# Evidências grandes
+# ======================
+evidencias/imagem-forense/
+evidencias/*.E0*

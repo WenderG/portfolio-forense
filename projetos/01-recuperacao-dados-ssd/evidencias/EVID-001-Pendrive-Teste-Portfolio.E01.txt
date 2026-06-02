@@ -1,0 +1,48 @@
+﻿Created By Exterro® FTK® Imager 4.7.3.81 
+
+Case Information: 
+Acquired using: ADI4.7.3.81
+Case Number: 001
+Evidence Number: TESTE-PORTFOLIO-001
+Unique description: Pendrive de teste contendo arquivos pessoais simulados para exercício de recuperação forense. 
+Arquivos intencionalmente deletados para demonstração de data carving.
+Examiner: Thiago Gonsales
+Notes:  
+
+--------------------------------------------------------------
+
+Information for C:\Users\Thiago\Desktop\portfolio-forense\imagens\EVID-002-Pendrive-Teste-Portfolio:
+
+Physical Evidentiary Item (Source) Information:
+[Device Info]
+ Source Type: Physical
+[Drive Geometry]
+ Cylinders: 63
+ Tracks per Cylinder: 255
+ Sectors per Track: 63
+ Bytes per Sector: 512
+ Sector Count: 1.024.000
+[Physical Drive Information]
+ Drive Model: General UDisk USB Device
+ Drive Serial Number: 1203152024191384321811
+ Drive Interface Type: USB
+ Removable drive: True
+ Source data size: 500 MB
+ Sector count:    1024000
+[Computed Hashes]
+ MD5 checksum:    a377cbe91d328ded0cb5b76efe2c29e6
+ SHA1 checksum:   187fa49afafe65c97b5131f0dc3029dd27ec6882
+
+Image Information:
+ Acquisition started:   Tue May 26 20:33:35 2026
+ Acquisition finished:  Tue May 26 20:34:04 2026
+ Segment list:
+  C:\Users\Thiago\Desktop\portfolio-forense\imagens\EVID-002-Pendrive-Teste-Portfolio.E01
+ COMPUTED HASH :  a377cbe91d328ded0cb5b76efe2c29e6
+ COMPUTED HASH :  187fa49afafe65c97b5131f0dc3029dd27ec6882
+
+Image Verification Results:
+ Verification started:  Tue May 26 20:34:04 2026
+ Verification finished: Tue May 26 20:34:06 2026
+ MD5 checksum:    a377cbe91d328ded0cb5b76efe2c29e6 : verified
+ SHA1 checksum:   187fa49afafe65c97b5131f0dc3029dd27ec6882 : verified
