@@ -6,7 +6,7 @@
 
 ## Objetivo
 
-Demonstrar a captura e análise de memória RAM para extração de processos, conexões de rede, linhas de comando e artefatos voláteis.
+Demonstrar a captura e análise de memória RAM usando Volatility 3 para extrair processos, conexões de rede, linhas de comando e outros artefatos voláteis.
 
 ## Ferramentas Utilizadas
 
@@ -16,29 +16,36 @@ Demonstrar a captura e análise de memória RAM para extração de processos, co
 ## Metodologia
 
 1. Criação de Máquina Virtual Windows
-2. Captura da memória RAM enquanto executava aplicações normais
+2. Captura da memória RAM enquanto o sistema executava aplicações normais
 3. Análise com Volatility 3 (plugins principais)
 
 ## Resultados Principais
 
 - **Sistema identificado**: Windows 10 (Build 19041)
-- **Número de Processos**: Muitos em execução (incluindo svchost, explorer, msedge, OneDrive, etc.)
-- **Conexões de rede**: Detectadas várias conexões ativas (TCP/UDP)
-- **Artefatos recuperados**: Linhas de comando, processos em árvore, serviços, etc.
-- Arquivos de saída gerados: `info.txt`, `pslist.txt`, `pstree.txt`, `netscan.txt`, `cmdline.txt`
+- **Número de Processos**: Diversos processos ativos (System, smss, csrss, svchost, explorer, msedge, OneDrive, etc.)
+- **Conexões de rede**: Múltiplas conexões TCP/UDP detectadas
+- **Artefatos recuperados**: Linhas de comando, árvore de processos, serviços em execução
+
+## Arquivos Gerados
+
+- `info.txt` — Informações do sistema
+- `pslist.txt` e `pstree.txt` — Lista de processos
+- `netscan.txt` — Conexões de rede
+- `cmdline.txt` — Linhas de comando
 
 ## Evidências
 
-- [Captura da Memória](./memoria/memoria-captura-01.raw) (não versionado)
-- [Exemplo de saída - Processos](./resultados/pslist.txt)
-- [Exemplo de saída - Árvore de Processos](./resultados/pstree.txt)
-- [Exemplo de saída - Rede](./resultados/netscan.txt)
+**Exemplos de saída:**
+- [Informações do Sistema](./resultados/info.txt)
+- [Lista de Processos](./resultados/pslist.txt)
+- [Árvore de Processos](./resultados/pstree.txt)
+- [Conexões de Rede](./resultados/netscan.txt)
 
 ## Conclusão
 
-Este projeto demonstra a importância da análise de memória volátil para identificar processos ocultos, conexões suspeitas e artefatos que não ficam registrados em disco. É uma técnica essencial em investigações de incidentes e malware.
+A análise de memória volátil é essencial para identificar processos ocultos, malware em execução e artefatos que não ficam registrados em disco. Este projeto demonstra o uso prático do Volatility 3 em um cenário controlado.
 
-**Aprendizado:** Volatility 3 é extremamente poderoso para extrair informações em tempo real da RAM.
+**Aprendizado:** A combinação de captura + análise permite recuperar informações críticas em investigações de incidentes.
 
 ---
 
