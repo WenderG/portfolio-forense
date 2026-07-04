@@ -37,7 +37,7 @@ Demonstrar a captura e análise de memória RAM usando Volatility 3 para extrair
 
 **Exemplos de saída:**
 - [Informações do Sistema](./resultados/info.txt)
-- [Lista de Processos](./resultados/pslist.txt)
+- [Lista de Processos](./resultados/cmdline.txt)
 - [Árvore de Processos](./resultados/pstree.txt)
 - [Conexões de Rede](./resultados/netscan.txt)
 
