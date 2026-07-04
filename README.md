@@ -1,6 +1,6 @@
 # Thiago Gonsales - Perito em Computação Forense
 
-![Banner Computação Forense](../imagens/banner.png)
+![Banner Computação Forense](../imagens/banner.jpg)
 
 ## Sobre Mim
 
