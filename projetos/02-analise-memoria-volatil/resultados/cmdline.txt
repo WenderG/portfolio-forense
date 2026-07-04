@@ -1,0 +1,160 @@
+Volatility 3 Framework 2.28.0
+
+PID	Process	Args
+
+4	System	-
+108	Registry	-
+372	smss.exe	\SystemRoot\System32\smss.exe
+472	csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+548	wininit.exe	wininit.exe
+556	csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+620	winlogon.exe	winlogon.exe
+692	services.exe	C:\Windows\system32\services.exe
+712	lsass.exe	C:\Windows\system32\lsass.exe
+824	svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch -p
+856	fontdrvhost.ex	"fontdrvhost.exe"
+864	fontdrvhost.ex	"fontdrvhost.exe"
+952	svchost.exe	C:\Windows\system32\svchost.exe -k RPCSS -p
+1004	svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch -p -s LSM
+448	dwm.exe	"dwm.exe"
+1052	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService
+1076	svchost.exe	-
+1084	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s TimeBrokerSvc
+1096	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p
+1200	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s EventLog
+1296	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -p -s nsi
+1332	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -p
+1356	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s Dhcp
+1392	VBoxService.ex	C:\Windows\System32\VBoxService.exe
+1404	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -p -s DispBrokerDesktopSvc
+1552	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s ProfSvc
+1568	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -p -s EventSystem
+1576	svchost.exe	C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s SysMain
+1608	svchost.exe	C:\Windows\System32\svchost.exe -k netsvcs -p -s Themes
+1624	svchost.exe	C:\Windows\System32\svchost.exe -k NetworkService -p -s NlaSvc
+1728	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule
+1776	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s SENS
+1796	MemCompression	-
+1880	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -p -s FontCache
+1900	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s AudioEndpointBuilder
+1912	svchost.exe	C:\Windows\System32\svchost.exe -k LocalService -p -s netprofm
+2144	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s UserManager
+2152	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p
+2280	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p
+2312	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p
+2320	svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService -p -s Dnscache
+2380	svchost.exe	C:\Windows\system32\svchost.exe -k appmodel -p -s StateRepository
+2432	svchost.exe	C:\Windows\System32\svchost.exe -k netsvcs -p -s ShellHWDetection
+2552	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s WinHttpAutoProxySvc
+2588	spoolsv.exe	C:\Windows\System32\spoolsv.exe
+2652	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p
+2704	svchost.exe	C:\Windows\System32\svchost.exe -k NetworkService -p -s LanmanWorkstation
+2960	svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService -p -s CryptSvc
+2968	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p -s DPS
+2976	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s Winmgmt
+2984	svchost.exe	C:\Windows\System32\svchost.exe -k utcsvc -p
+3060	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s LanmanServer
+2240	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -p -s SstpSvc
+2612	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks
+2860	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s WpnService
+3104	svchost.exe	C:\Windows\System32\svchost.exe -k LocalService -p -s WdiServiceHost
+3184	svchost.exe	C:\Windows\System32\svchost.exe -k NetSvcs -p -s iphlpsvc
+3348	svchost.exe	C:\Windows\System32\svchost.exe -k netsvcs
+3856	dllhost.exe	C:\Windows\system32\DllHost.exe /Processid:{3EB3C877-1F16-487C-9050-104DBCD66683}
+3928	SearchIndexer.	C:\Windows\system32\SearchIndexer.exe /Embedding
+3964	svchost.exe	C:\Windows\system32\svchost.exe -k wsappx -p -s AppXSvc
+3040	svchost.exe	C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted -p -s PolicyAgent
+4808	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -s RmSvc
+4984	sihost.exe	sihost.exe
+5052	svchost.exe	C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s CDPUserSvc
+5084	svchost.exe	C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s WpnUserService
+700	taskhostw.exe	taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}
+4176	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s TokenBroker
+4152	userinit.exe	-
+4684	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TabletInputService
+4412	explorer.exe	C:\Windows\Explorer.EXE
+4384	ctfmon.exe	"ctfmon.exe"
+4740	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -p -s CDPSvc
+5600	svchost.exe	C:\Windows\System32\svchost.exe -k LocalService -p -s LicenseManager
+5648	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv
+5876	svchost.exe	C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p -s cbdhsvc
+6072	StartMenuExper	"C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca
+6236	RuntimeBroker.	C:\Windows\System32\RuntimeBroker.exe -Embedding
+6652	RuntimeBroker.	C:\Windows\System32\RuntimeBroker.exe -Embedding
+7124	RuntimeBroker.	C:\Windows\System32\RuntimeBroker.exe -Embedding
+6528	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s WdiSystemHost
+3164	svchost.exe	C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s PcaSvc
+6164	msedge.exe	-
+7380	msedge.exe	-
+7388	msedge.exe	-
+7396	msedge.exe	-
+7616	SecurityHealth	"C:\Windows\System32\SecurityHealthSystray.exe" 
+7676	SecurityHealth	C:\Windows\system32\SecurityHealthService.exe
+7792	VBoxTray.exe	"C:\Windows\System32\VBoxTray.exe" 
+7864	OneDrive.exe	-
+7468	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo
+8576	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s lfsvc
+8932	RuntimeBroker.	C:\Windows\System32\RuntimeBroker.exe -Embedding
+8740	svchost.exe	C:\Windows\System32\svchost.exe -k netsvcs -p
+1116	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s UsoSvc
+6560	MoUsoCoreWorke	C:\Windows\System32\mousocoreworker.exe -Embedding
+7096	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s StorSvc
+5512	svchost.exe	C:\Windows\System32\svchost.exe -k NetworkService -p -s DoSvc
+9988	SgrmBroker.exe	C:\Windows\system32\SgrmBroker.exe
+10028	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -s W32Time
+1272	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s wscsvc
+4928	svchost.exe	C:\Windows\system32\svchost.exe -k UnistackSvcGroup
+9964	M365Copilot.ex	"C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_19.2605.49101.0_x64__8wekyb3d8bbwe\M365Copilot.exe" autorestart reason=update
+9352	msedgewebview2	"C:\Program Files (x86)\Microsoft\EdgeWebView\Application\148.0.3967.83\msedgewebview2.exe" --embedded-browser-webview=1 --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2605.49101.0 --user-data-dir="C:\Users\wender\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalState\EBWebView" --noerrdialogs --embedded-browser-webview-dpi-awareness=2 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --mojo-named-platform-channel-pipe=9964.8664.5249342916419483008
+9044	msedgewebview2	"C:\Program Files (x86)\Microsoft\EdgeWebView\Application\148.0.3967.83\msedgewebview2.exe" --type=crashpad-handler --user-data-dir=C:\Users\wender\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalState\EBWebView /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler --database=C:\Users\wender\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalState\EBWebView\Crashpad --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=148.0.7778.180 "--annotation=exe=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\148.0.3967.83\msedgewebview2.exe" --annotation=plat=Win64 "--annotation=prod=Edge WebView2" --annotation=ver=148.0.3967.83 --initial-client-data=0x15c,0x160,0x164,0x138,0x16c,0x7ffd01b05d58,0x7ffd01b05d64,0x7ffd01b05d70
+6228	msedgewebview2	"C:\Program Files (x86)\Microsoft\EdgeWebView\Application\148.0.3967.83\msedgewebview2.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=pt-BR --service-sandbox-type=none --noerrdialogs --user-data-dir="C:\Users\wender\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalState\EBWebView" --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2605.49101.0 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --always-read-main-dll --metrics-shmem-handle=1968,i,14971076814587692265,8174727029805260405,524288 --field-trial-handle=1920,i,10702737449431518566,7364896239475852549,262144 --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version --pseudonymization-salt-handle=1928,i,16765600611786347908,17739529766833612677,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=1996 /prefetch:3
+6588	msedgewebview2	"C:\Program Files (x86)\Microsoft\EdgeWebView\Application\148.0.3967.83\msedgewebview2.exe" --type=gpu-process --noerrdialogs --user-data-dir="C:\Users\wender\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalState\EBWebView" --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2605.49101.0 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --always-read-main-dll --metrics-shmem-handle=1688,i,12898546914313465528,914894990350582608,262144 --field-trial-handle=1920,i,10702737449431518566,7364896239475852549,262144 --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version --pseudonymization-salt-handle=1928,i,16765600611786347908,17739529766833612677,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=1908 /prefetch:2
+7544	msedgewebview2	"C:\Program Files (x86)\Microsoft\EdgeWebView\Application\148.0.3967.83\msedgewebview2.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=pt-BR --service-sandbox-type=service --noerrdialogs --user-data-dir="C:\Users\wender\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalState\EBWebView" --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2605.49101.0 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --always-read-main-dll --metrics-shmem-handle=2292,i,14084029232307901240,17271311530010285210,524288 --field-trial-handle=1920,i,10702737449431518566,7364896239475852549,262144 --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version --pseudonymization-salt-handle=1928,i,16765600611786347908,17739529766833612677,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=2304 /prefetch:8
+10032	msedgewebview2	"C:\Program Files (x86)\Microsoft\EdgeWebView\Application\148.0.3967.83\msedgewebview2.exe" --type=renderer --noerrdialogs --user-data-dir="C:\Users\wender\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalState\EBWebView" --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2605.49101.0 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --video-capture-use-gpu-memory-buffer --lang=pt-BR --js-flags=--expose-gc --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1779814599532904 --launch-time-ticks=278098931 --always-read-main-dll --metrics-shmem-handle=3660,i,2289943768096050289,17926988311526146510,2097152 --field-trial-handle=1920,i,10702737449431518566,7364896239475852549,262144 --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version --pseudonymization-salt-handle=1928,i,16765600611786347908,17739529766833612677,4 --trace-process-track-uuid=3190708990997080739 --mojo-platform-channel-handle=3624 /prefetch:1
+576	taskhostw.exe	taskhostw.exe
+10116	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s lmhosts
+4868	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV
+10464	svchost.exe	-
+10528	TextInputHost.	"C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe" -ServerName:InputApp.AppXjd5de1g66v206tj52m9d0dtpppx4cgpn.mca
+11280	PhoneExperienc	"C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25072.79.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe" -ComServer:Background -Embedding
+6472	svchost.exe	C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s DevQueryBroker
+6384	ScreenClipping	-
+6316	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService -p -s CaptureService
+5548	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s DsSvc
+2584	OneDrive.exe	-
+392	taskhostw.exe	taskhostw.exe
+13384	UserOOBEBroker	C:\Windows\System32\oobe\UserOOBEBroker.exe -Embedding
+3332	MicrosoftEdgeU	"C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /c
+11408	MicrosoftEdgeU	"C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /ua /installsource core
+10176	MicrosoftEdgeU	"C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /svc
+13936	audiodg.exe	C:\Windows\system32\AUDIODG.EXE 0x41c
+9488	SearchApp.exe	"C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe" -ServerName:CortanaUI.AppX8z9r6jm96hw4bsbneegw0kyxx296wr9t.mca
+5164	MpDefenderCore	"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26050.15-0\MpDefenderCoreService.exe"
+9340	MsMpEng.exe	"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26050.15-0\MsMpEng.exe"
+1752	NisSrv.exe	"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26050.15-0\NisSrv.exe"
+5348	MRCv120.exe	"C:\Users\wender\Desktop\MRCv120.exe" 
+4948	ScreenClipping	-
+6056	ShellExperienc	"C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca
+3308	RuntimeBroker.	C:\Windows\System32\RuntimeBroker.exe -Embedding
+8940	OneDrive.exe	-
+1716	svchost.exe	-
+9764	svchost.exe	-
+1684	msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --no-startup-window
+13844	msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=crashpad-handler "--user-data-dir=C:\Users\wender\AppData\Local\Microsoft\Edge\User Data" /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\wender\AppData\Local\Microsoft\Edge\User Data\Crashpad" --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=148.0.7778.180 "--annotation=exe=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --annotation=plat=Win64 --annotation=prod=Edge --annotation=ver=148.0.3967.83 --initial-client-data=0x248,0x24c,0x250,0x244,0x25c,0x7ffd01b05d58,0x7ffd01b05d64,0x7ffd01b05d70
+12596	msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=pt-BR --service-sandbox-type=none --always-read-main-dll --metrics-shmem-handle=2120,i,7384731088096565723,5836548072310020308,524288 --field-trial-handle=2216,i,14861886578286468012,2726572482171313116,262144 --variations-seed-version --pseudonymization-salt-handle=2220,i,3001375067671994488,4603606037498751213,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=2280 /prefetch:3
+3340	msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=gpu-process --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --always-read-main-dll --metrics-shmem-handle=1956,i,1830836827108564150,4505820086667098230,262144 --field-trial-handle=2216,i,14861886578286468012,2726572482171313116,262144 --variations-seed-version --pseudonymization-salt-handle=2220,i,3001375067671994488,4603606037498751213,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=2200 /prefetch:2
+4448	msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=pt-BR --service-sandbox-type=service --always-read-main-dll --metrics-shmem-handle=2588,i,12667828560175886080,7641890124008220390,524288 --field-trial-handle=2216,i,14861886578286468012,2726572482171313116,262144 --variations-seed-version --pseudonymization-salt-handle=2220,i,3001375067671994488,4603606037498751213,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=2612 /prefetch:8
+6628	msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=renderer --pdf-upsell-enabled --video-capture-use-gpu-memory-buffer --lang=pt-BR --js-flags --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1783166799711838 --launch-time-ticks=2334071051 --always-read-main-dll --metrics-shmem-handle=4788,i,2127856882958081728,7008156406474038685,2097152 --field-trial-handle=2216,i,14861886578286468012,2726572482171313116,262144 --variations-seed-version --pseudonymization-salt-handle=2220,i,3001375067671994488,4603606037498751213,4 --trace-process-track-uuid=3190708992871164437 --mojo-platform-channel-handle=4928 /prefetch:1
+3492	msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=renderer --pdf-upsell-enabled --video-capture-use-gpu-memory-buffer --lang=pt-BR --js-flags --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1783166799711838 --launch-time-ticks=2334676587 --always-read-main-dll --metrics-shmem-handle=5556,i,6912749867879323528,3939128255964072414,2097152 --field-trial-handle=2216,i,14861886578286468012,2726572482171313116,262144 --variations-seed-version --pseudonymization-salt-handle=2220,i,3001375067671994488,4603606037498751213,4 --trace-process-track-uuid=3190708994745248135 --mojo-platform-channel-handle=5560 /prefetch:1
+6752	MusNotifyIcon.	%systemroot%\system32\MusNotifyIcon.exe NotifyTrayIcon 19
+10640	svchost.exe	C:\Windows\System32\svchost.exe -k netsvcs -p -s BITS
+11776	WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe
+2288	OneDrive.exe	 /updateInstalled /background
+11132	OneDrive.Sync.	/silentConfig
+8552	SearchProtocol	-
+10868	SearchFilterHo	"C:\Windows\system32\SearchFilterHost.exe" 0 804 808 816 8192 812 784 
+13204	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs -p -s gpsvc
+6204	WmiApSrv.exe	C:\Windows\system32\wbem\WmiApSrv.exe
+5580	MicrosoftEdge_	"C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{25FB8514-E2EB-4C31-82BF-F523F08ADF4B}\MicrosoftEdge_X64_149.0.4022.98_148.0.3967.83.exe" --msedgewebview --verbose-logging --do-not-launch-msedge --system-level
+11300	setup.exe	-
+9616	smartscreen.ex	-
